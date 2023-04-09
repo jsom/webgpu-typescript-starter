@@ -1,0 +1,21 @@
+{
+  "name": "webgpu-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node watch.mjs",
+    "serve": "node serve.mjs",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "James Robert Somers",
+  "license": "MIT",
+  "devDependencies": {
+    "@webgpu/types": "^0.1.30",
+    "esbuild": "^0.17.15",
+    "esbuild-copy-static-files": "^0.1.0",
+    "esbuild-plugin-glsl": "^1.1.1",
+    "typescript": "^5.0.4"
+  }
+}
